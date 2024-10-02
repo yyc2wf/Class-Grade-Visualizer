@@ -1,0 +1,89 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header Styles */
+.header {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+/* File Upload Section */
+.file-upload {
+  margin: 20px 0;
+}
+
+.file-upload h3 {
+  color: #555;
+}
+
+/* Checkbox Section */
+.checkbox-section {
+  margin: 20px 0;
+}
+
+.checkbox-section h3 {
+  color: #555;
+}
+
+/* Analysis Options */
+.checkbox-section label {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Analyze Button */
+.analyze-button {
+  margin: 20px 0;
+}
+
+.analyze-button button {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.analyze-button button:hover {
+  background-color: #0056b3;
+}
+
+/* Results Section */
+.results {
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.results h3 {
+  color: #333;
+}
